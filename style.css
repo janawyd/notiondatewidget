@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
 
 body {
     margin: 0;
@@ -7,17 +7,29 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #f5f5f5;
+    background: #f9f7f1;
 }
 
-.date-container {
-    font-family: 'Playfair Display', serif;
-    font-size: 3rem;
-    color: black;
+.widget-container {
     text-align: center;
+    font-family: 'EB Garamond', serif;
+    color: #222;
     background: white;
-    padding: 20px;
-    border: 5px solid black;
-    box-shadow: 5px 5px 0px rgba(0,0,0,0.3);
-    text-transform: uppercase;
+    padding: 25px;
+    border: 3px solid black;
+    box-shadow: 6px 6px 0px rgba(0,0,0,0.3);
+    width: 300px;
+    text-transform: capitalize;
 }
+
+.greeting {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
